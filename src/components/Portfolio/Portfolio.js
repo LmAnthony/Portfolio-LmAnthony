@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 export default class Portfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
 
     // Configuration du carrousel
-    const settings = {
-      dots: true, // Afficher les points de navigation
-      infinite: true, // Activer la navigation infinie
-      speed: 800, // Vitesse de transition
-      slidesToShow: 1, // Nombre d'éléments à afficher à la fois
-      slidesToScroll: 1, // Nombre d'éléments à faire défiler à la fois
-    };
+    // const settings = {
+    //   dots: true, // Afficher les points de navigation
+    //   infinite: true, // Activer la navigation infinie
+    //   speed: 800, // Vitesse de transition
+    //   slidesToShow: 1, // Nombre d'éléments à afficher à la fois
+    //   slidesToScroll: 1, // Nombre d'éléments à faire défiler à la fois
+    // };
 
     return (
       <section id="portfolio">
         <div className="row">
-          <div className="twelve columns collapsed">
             <h1>Works</h1>
-            <Slider {...settings}>
+          <div className="twelve columns collapsed">
+            {/* <Slider {...settings}> */}
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item, index) => {
                   return (
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
                     </div>
                   );
                 })}
-            </Slider>
+            {/* </Slider> */}
           </div>
         </div>
       </section>

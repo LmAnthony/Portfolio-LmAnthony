@@ -646,7 +646,13 @@ e. Others
  .row .nine        { width: 75%; }
  .row .ten         { width: 83.33333%; }
  .row .eleven      { width: 91.66667%; }
- .row .twelve      { width: 100%; }
+ .row .twelve      {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
  
  /* Offsets */
  .row .offset-1    { margin-left: 8.33333%; }
