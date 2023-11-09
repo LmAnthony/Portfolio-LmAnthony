@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-LmAnthony/static/css/main.15c859ad.css",
-    "main.js": "/Portfolio-LmAnthony/static/js/main.962a76ee.js",
+    "main.css": "/Portfolio-LmAnthony/static/css/main.71c1a6d9.css",
+    "main.js": "/Portfolio-LmAnthony/static/js/main.5a033d12.js",
     "static/media/librebaskerville-italic-webfont.svg": "/Portfolio-LmAnthony/static/media/librebaskerville-italic-webfont.0b422488a719e23639bd.svg",
     "static/media/fontawesome-webfont.svg?v=4.0.3": "/Portfolio-LmAnthony/static/media/fontawesome-webfont.d9b392ddb6b9040c3c66.svg",
     "static/media/librebaskerville-bold-webfont.svg": "/Portfolio-LmAnthony/static/media/librebaskerville-bold-webfont.0baa8f8874829b8190f4.svg",
@@ -63,11 +63,11 @@
     "static/media/fontello.svg?13439518": "/Portfolio-LmAnthony/static/media/fontello.1ddb36f50bb11bd2aa4f.svg",
     "static/media/fontello.woff?13439518": "/Portfolio-LmAnthony/static/media/fontello.75a0066bb4cd6971750a.woff",
     "index.html": "/Portfolio-LmAnthony/index.html",
-    "main.15c859ad.css.map": "/Portfolio-LmAnthony/static/css/main.15c859ad.css.map",
-    "main.962a76ee.js.map": "/Portfolio-LmAnthony/static/js/main.962a76ee.js.map"
+    "main.71c1a6d9.css.map": "/Portfolio-LmAnthony/static/css/main.71c1a6d9.css.map",
+    "main.5a033d12.js.map": "/Portfolio-LmAnthony/static/js/main.5a033d12.js.map"
   },
   "entrypoints": [
-    "static/css/main.15c859ad.css",
-    "static/js/main.962a76ee.js"
+    "static/css/main.71c1a6d9.css",
+    "static/js/main.5a033d12.js"
   ]
 }
