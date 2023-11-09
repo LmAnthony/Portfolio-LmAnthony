@@ -1855,6 +1855,22 @@ properly.
     margin: 0 auto 12px auto;
   }
 }
+/* screenwidth less than 1050px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 920px) {
+  .portfolio-item {
+    width: 45%;
+  }
+  .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .portfolio-item .portfolio-item-meta p {
+    font: 12px/28px "opensans-light", sans-serif;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+}
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
@@ -2084,7 +2100,9 @@ properly.
   }
   .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
     font-size: 22px;
-    font-weight: 600;
+  }
+  .portfolio-item .portfolio-item-meta p {
+    font: 12px/28px "opensans-light", sans-serif;
   }
   /* footer
   ------------------------------------------------------------------------ */
@@ -2135,6 +2153,14 @@ properly.
     font: 14px/1.9em "librebaskerville-regular", sans-serif;
     width: 90%;
   }
+  /* Portfolio Section
+  /* ----------------------------------------------------------------- */
+  .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
+    font-size: 16px;
+  }
+  .portfolio-item .portfolio-item-meta p {
+    font: 12px/28px "opensans-light", sans-serif;
+  }
   /* header social links */
   header .social {
     font-size: 20px;
@@ -2150,6 +2176,16 @@ properly.
   }
   footer .social-links li {
     margin-left: 14px;
+  }
+}
+@media only screen and (max-width: 365px) {
+  /* Portfolio Section
+  /* ----------------------------------------------------------------- */
+  .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
+    font-size: 13.5px;
+  }
+  .portfolio-item .portfolio-item-meta p {
+    font: 12px/22px "opensans-light", sans-serif;
   }
 }
 #portfolio {
