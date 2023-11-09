@@ -84,16 +84,21 @@
  }
  .portfolio-item .portfolio-item-meta { padding: 18px }
  .portfolio-item .portfolio-item-meta h5 {
-    font: 14px/70px 'opensans-bold', sans-serif;
+    font: 14px/60px 'opensans-bold', sans-serif;
     color: #fff;
  }
  .portfolio-item .portfolio-item-meta p {
-    font: 12px/40px 'opensans-light', sans-serif;
+    font: 12px/22px 'opensans-light', sans-serif;
     color: #ffffff;
     margin-bottom: 0;
  }
- .portfolio-item .portfolio-item-meta p, .portfolio-item .portfolio-item-meta h5 {
-    font-size: 22px;
+ .portfolio-item .portfolio-item-meta h5{
+   font-size: 18px;
+   font-weight: 600;
+
+ }
+ .portfolio-item .portfolio-item-meta p{
+    font-size: 14px;
     font-weight: 600;
  }
  

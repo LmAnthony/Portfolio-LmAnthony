@@ -69,7 +69,7 @@ let resumeData = {
     "portfolio":[
       {
         "name":"OhMyFood",
-        "description":"OhMyFood est une application web en HTML et CSS/SCSS qui se distingue par sa simplicité et ses animations subtiles.",
+        "description":"OhMyFood est une application web développée en HTML et CSS/SCSS qui se distingue par sa simplicité et ses animations subtiles.",
         "imgurl":"images/portfolio/ohmyfood.webp",
         "link":"https://github.com/LmAnthony/LmAnthony.github.io"
         // "livewebsite":"http://LmAnthony.github.webpio",
@@ -77,13 +77,13 @@ let resumeData = {
       },
       {
         "name":"Argent Bank",
-        "description":"Argent Bank se présente comme une banque en ligne, une application web React dotée d'un système d'authentification utilisateur.",
+        "description":"Argent Bank est une banque en ligne qui propose une application web développée en utilisant les technologies suivantes : HTML, CSS (Sass), JavaScript, React, et Redux. L'application comprend un système d'authentification utilisateur pour assurer la sécurité des transactions. ",
         "imgurl":"images/portfolio/argentbank.webp",
         "link":"https://github.com/LmAnthony/ArgentBank-Projet11"
       },
       {
         "name":"Kasa",
-        "description":"Kasa est une application React dédiée à la location immobilière.",
+        "description":"Kasa est une application React spécifiquement conçue pour faciliter la location immobilière entre particuliers. Ce projet a été développé en utilisant les technologies suivantes : React, HTML, CSS (SASS), et Javascript.",
         "imgurl":"images/portfolio/kasa.webp",
         "link":"https://github.com/LmAnthony/Kasa-Projet8"
       },
@@ -95,7 +95,7 @@ let resumeData = {
       },
       {
         "name":"Nina Carducci",
-        "description":"Site de Nina Carducci en HTML/CSS, photographe cherchant à améliorer son référencement pour atteindre une meilleure visibilité en ligne.",
+        "description":"Le site de Nina Carducci a été créé en utilisant les langages HTML, CSS, et Javascript. En tant que photographe, Nina cherche à optimiser son référencement pour accroître sa visibilité en ligne et ainsi améliorer sa présence sur le web.",
         "imgurl":"images/portfolio/ninacarducci.webp",
         "link":"https://github.com/LmAnthony/Nina.Carducci-Projet9"
       }
