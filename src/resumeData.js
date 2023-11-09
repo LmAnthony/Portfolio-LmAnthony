@@ -70,33 +70,33 @@ let resumeData = {
       {
         "name":"OhMyFood",
         "description":"OhMyFood est une application web en HTML et CSS/SCSS qui se distingue par sa simplicité et ses animations subtiles.",
-        "imgurl":"images/portfolio/ohmyfood.jpg",
+        "imgurl":"images/portfolio/ohmyfood.webp",
         "link":"https://github.com/LmAnthony/LmAnthony.github.io"
-        // "livewebsite":"http://LmAnthony.github.io",
+        // "livewebsite":"http://LmAnthony.github.webpio",
         // "livewebsitetitle":"OhMyFood Live website !"
       },
       {
         "name":"Argent Bank",
         "description":"Argent Bank se présente comme une banque en ligne, une application web React dotée d'un système d'authentification utilisateur.",
-        "imgurl":"images/portfolio/argentbank.jpg",
+        "imgurl":"images/portfolio/argentbank.webp",
         "link":"https://github.com/LmAnthony/ArgentBank-Projet11"
       },
       {
         "name":"Kasa",
         "description":"Kasa est une application React dédiée à la location immobilière.",
-        "imgurl":"images/portfolio/kasa.jpg",
+        "imgurl":"images/portfolio/kasa.webp",
         "link":"https://github.com/LmAnthony/Kasa-Projet8"
       },
       {
         "name":"Booki",
         "description":"Booki est un site web responsive en HTML/CSS qui permet aux utilisateurs de rechercher des hébergements et des activités dans la ville de leur choix.",  
-        "imgurl":"images/portfolio/booki.jpg",
+        "imgurl":"images/portfolio/booki.webp",
         "link":"https://github.com/LmAnthony/Booki-Projet3"
       },
       {
         "name":"Nina Carducci",
         "description":"Site de Nina Carducci en HTML/CSS, photographe cherchant à améliorer son référencement pour atteindre une meilleure visibilité en ligne.",
-        "imgurl":"images/portfolio/ninacarducci.jpg",
+        "imgurl":"images/portfolio/ninacarducci.webp",
         "link":"https://github.com/LmAnthony/Nina.Carducci-Projet9"
       }
     ]
