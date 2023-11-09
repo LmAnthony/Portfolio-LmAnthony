@@ -77,13 +77,13 @@ let resumeData = {
       },
       {
         "name":"Argent Bank",
-        "description":"Argent Bank est une banque en ligne qui propose une application web développée en utilisant les technologies suivantes : HTML, CSS (Sass), JavaScript, React, et Redux. L'application comprend un système d'authentification utilisateur pour assurer la sécurité des transactions. ",
+        "description":"Argent Bank est une banque en ligne qui propose une application web développée en utilisant les technologies suivantes : HTML, CSS (Sass), JavaScript, React, et Redux. ",
         "imgurl":"images/portfolio/argentbank.webp",
         "link":"https://github.com/LmAnthony/ArgentBank-Projet11"
       },
       {
         "name":"Kasa",
-        "description":"Kasa est une application React spécifiquement conçue pour faciliter la location immobilière entre particuliers. Ce projet a été développé en utilisant les technologies suivantes : React, HTML, CSS (SASS), et Javascript.",
+        "description":"Kasa est une application React conçue pour la location immobilière. Ce projet a été développé en utilisant les technologies suivantes : React, HTML, CSS (SASS), et Javascript.",
         "imgurl":"images/portfolio/kasa.webp",
         "link":"https://github.com/LmAnthony/Kasa-Projet8"
       },
@@ -95,7 +95,7 @@ let resumeData = {
       },
       {
         "name":"Nina Carducci",
-        "description":"Le site de Nina Carducci a été créé en utilisant les langages HTML, CSS, et Javascript. En tant que photographe, Nina cherche à optimiser son référencement pour accroître sa visibilité en ligne et ainsi améliorer sa présence sur le web.",
+        "description":"Le site de Nina Carducci a été créé en utilisant les langages HTML, CSS, et Javascript. Nina cherche à optimiser son référencement pour accroître sa visibilité en ligne.",
         "imgurl":"images/portfolio/ninacarducci.webp",
         "link":"https://github.com/LmAnthony/Nina.Carducci-Projet9"
       }
