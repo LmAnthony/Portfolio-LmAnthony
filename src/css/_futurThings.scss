@@ -1,0 +1,235 @@
+/*
+=====================================================================
+*   Ceevee v1.0 Layout Stylesheet
+*   url: styleshout.com
+*   03-18-2014
+=====================================================================
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #0f0f0f; }
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: #fff;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #F06000; }
+
+/* ------------------------------------------------------------------ */
+/* f. Call To Action Section
+/* ------------------------------------------------------------------ */
+
+#call-to-action {
+   background: #212121;
+   padding-top: 66px;
+   padding-bottom: 48px;
+}
+#call-to-action h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#call-to-action h1 span { display: none; }
+#call-to-action .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0ac";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+#call-to-action .action {
+   margin-top: 12px;
+}
+#call-to-action h2 {
+   font: 28px/36px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#call-to-action h2 a {
+   color: inherit;
+}
+#call-to-action p {
+   color: #636363;
+   font-size: 17px;
+}
+/*#
+call-to-action .button {
+	color:#fff;
+   background: #0D0D0D;
+}
+*/
+#call-to-action .button:hover,
+#call-to-action .button:active {
+   background: #FFFFFF;
+   color: #0D0D0D;
+}
+#call-to-action p span {
+	font-family: 'opensans-semibold', sans-serif; 
+	color: #D8D8D8;
+}
+
+/* Flex Slider
+/* ------------------------------------------------------------------ */
+
+/* Reset */
+.flexslider a:active,
+.flexslider a:focus  { outline: none; }
+.slides,
+.flex-control-nav,
+.flex-direction-nav { margin: 0; padding: 0; list-style: none; }
+.slides li { margin: 0; padding: 0;}
+
+/* Necessary Styles */
+.flexslider {
+   position: relative;
+   zoom: 1;
+   margin: 0;
+   padding: 0;
+}
+.flexslider .slides { zoom: 1; }
+.flexslider .slides > li { position: relative; }
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+/* Suggested container for slide animation setups. Can replace this with your own */
+.flex-container { zoom: 1; position: relative; }
+
+/* Clearfix for .slides */
+.slides:before,
+.slides:after {
+   content: " ";
+   display: table;
+}
+.slides:after {
+   clear: both;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child { display: block; }
+
+/* Slider Styles */
+.slides { zoom: 1; }
+.slides > li {
+   /*margin-right: 5px; */
+   overflow: hidden;
+}
+
+/* Control Nav */
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    text-align: left;
+}
+.flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+}
+.flex-control-paging li a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: #ddd;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
+}
+.flex-control-paging li a:hover {
+    background: #CCC;
+    background: rgba(255, 255, 255, .7);
+}
+.flex-control-paging li a.flex-active {
+    background: #fff;
+    background: rgba(255, 255, 255, .9);
+    cursor: default;
+}
+
+/* Twitter Feed */
+#twitter {
+   margin-top: 12px;
+   padding: 0;
+}
+#twitter li {
+   margin: 6px 0px 12px 0;
+   line-height: 30px;
+}
+#twitter li span {
+   display: block;
+}
+#twitter li b a {
+   font: 13px/36px 'opensans-regular', Sans-serif;
+   color: #474747 !important;
+   border: none;
+}
+

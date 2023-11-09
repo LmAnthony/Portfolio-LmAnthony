@@ -1,9 +1,13 @@
 // APP general
 @import "./app";
-// Layout and mediaqueries
-@import './layout';
+// others imports & mediaqueries
+@import './futurThings';
 @import './default';
 @import './mediaqueries';
-
+// Layouts
+@import "../components/Header/header";
+@import "../components/Footer/footer";
 // Components
 @import "../components/Portfolio/portfolio";
+@import "../components/About/about";
+@import "../components/Resume/resume";
