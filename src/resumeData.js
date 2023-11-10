@@ -72,7 +72,7 @@ let resumeData = {
         "description":"OhMyFood est une application web développée en HTML et CSS/SCSS qui se distingue par sa simplicité et ses animations subtiles.",
         "imgurl":"images/portfolio/ohmyfood.webp",
         "link":"https://github.com/LmAnthony/LmAnthony.github.io",
-        "livewebsite":"http://LmAnthony.github.webpio"
+        "livewebsite":"http://LmAnthony.github.io"
       },
       {
         "name":"Argent Bank",
