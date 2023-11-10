@@ -37,9 +37,14 @@ export default class Portfolio extends Component {
                         </div>
                       </div>
                       <div className='centerbtngithub'>
-                        <a href={`${item.link}`} className="btnlive_style" target="_blank" rel="noopener noreferrer">
-                          <p>Github code</p>
+                        <a href={`${item.link}`} className="projectBtnCodeLive" target="_blank" rel="noopener noreferrer">
+                          <p>Github</p>
                         </a>
+                        {item.livewebsite && item.livewebsitetitle && (
+                          <a href={`${item.livewebsite}`} className="projectBtnCodeLive" target="_blank" rel="noopener noreferrer">
+                            <p>Page</p>
+                          </a>
+                        )}
                       </div>
                     </div>
                   );

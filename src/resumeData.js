@@ -71,9 +71,8 @@ let resumeData = {
         "name":"OhMyFood",
         "description":"OhMyFood est une application web développée en HTML et CSS/SCSS qui se distingue par sa simplicité et ses animations subtiles.",
         "imgurl":"images/portfolio/ohmyfood.webp",
-        "link":"https://github.com/LmAnthony/LmAnthony.github.io"
-        // "livewebsite":"http://LmAnthony.github.webpio",
-        // "livewebsitetitle":"OhMyFood Live website !"
+        "link":"https://github.com/LmAnthony/LmAnthony.github.io",
+        "livewebsite":"http://LmAnthony.github.webpio"
       },
       {
         "name":"Argent Bank",
@@ -98,6 +97,12 @@ let resumeData = {
         "description":"Le site de Nina Carducci a été créé en utilisant les langages HTML, CSS, et Javascript. Nina cherche à optimiser son référencement pour accroître sa visibilité en ligne.",
         "imgurl":"images/portfolio/ninacarducci.webp",
         "link":"https://github.com/LmAnthony/Nina.Carducci-Projet9"
+      },
+      {
+        "name":"Printit",
+        "description":"L'objectif de ce projet est de revitaliser le site web de Print it, une imprimerie familiale, en utilisant les langages HTML, CSS et Javascript.",
+        "imgurl":"images/portfolio/printit.webp",
+        "link":"https://github.com/LmAnthony/Printit-Projet5"
       }
     ]
   }

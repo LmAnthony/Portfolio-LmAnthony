@@ -10,9 +10,17 @@ footer {
     text-align: center;
     position: relative;
  }
- 
- footer a, footer a:visited { color: #525252; }
- footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited{ color: #11abb0; }
+footer a:hover, footer a:focus { color: #11abb0; }
+
+footer .fa-github, footer .fa-linkedin{
+    transition: transform .2s;
+    color: #525252;
+ }
+footer .fa-github:hover, footer .fa-linkedin:hover{
+    transform: scale(1.30);
+    color: #11abb0;
+}
  
  /* copyright */
  footer .copyright {
@@ -81,3 +89,10 @@ footer {
       border-radius: 100%;
  }
  #go-top a:hover { background-color: #0F9095; }
+
+.icon-up-open{
+    transition: transform .2s;
+}
+.icon-up-open:hover{
+    transform: scale(1.03);
+}

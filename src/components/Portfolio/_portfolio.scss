@@ -105,27 +105,28 @@
  /* on hover */
  .centerbtngithub{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1em 0 1em 0;
  }
- .btnlive_style{
+ .projectBtnCodeLive{
     color: white;
     padding: 10px 24px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     z-index: 500;
-    margin-right: 1em;
-    margin-top: 3em;
-    margin-bottom: 3em;
     transition: transform 0.5s;
     background-color: rgba(80, 80, 80, 0.2);
  }
- .btnlive_style:hover{
+ .projectBtnCodeLive:hover{
     transform: scale(1.03);
     background-color: rgba(80, 80, 80, 0.6);
  }
- .btnlive_style p{
+ .projectBtnCodeLive p{
     color: white;
     margin:0;
  }
