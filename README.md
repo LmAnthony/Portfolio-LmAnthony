@@ -1,4 +1,4 @@
-![ArgentBank](/public/images/header-background.jpg)
+![Portfolio](/public/images/header-background.jpg)
 
 # Portfolio L. Anthony
 
@@ -6,7 +6,7 @@
 
 PROJET 12 Portfolio - {React, HTML, CSS(SASS)...}, 'Formation Intégrateur Web' chez [OpenClassrooms]
 
-### Installation et lancement du Front-end :
+### Installation et lancement :
 
 -   `npm install`
 
