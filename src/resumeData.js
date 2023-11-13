@@ -16,9 +16,10 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Passionné par la création de sites web dynamique, la curiosité, la créativité et la minutie sont mes qualités premières. Mobile et investi pour entreprendre une carrière en tant que Développeur, vivre des expériences nouvelles est ce qui m'attire le plus.",
+    "aboutme":"Passionné par la création de sites web dynamiques, la curiosité, la créativité et la minutie sont mes qualités premières. Mobile et investi pour entreprendre une carrière en tant que Développeur, vivre des expériences nouvelles est ce qui m'attire le plus.",
     "aboutmetwo":"N'hésitez pas à prendre contact avec moi !",
     "address":"France, anthony.devwwm@gmail.com",
+    "myCV":"files/cv.pdf",
     "skillsDescription":"Mes compétences",
     "skills":[
       {
