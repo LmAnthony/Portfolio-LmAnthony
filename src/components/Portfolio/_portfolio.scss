@@ -31,10 +31,12 @@ $btn-hover-bg-color: rgba(80, 80, 80, 0.6);
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
-
+.portfolio-item{
+   width: 33%;
+}
 // Hover effect on portfolio item
 .portfolio-item .item-wrap:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 // Overlay
@@ -107,7 +109,7 @@ $btn-hover-bg-color: rgba(80, 80, 80, 0.6);
 }
 
 .projectBtnCodeLive:hover {
-  transform: scale(1.03);
+  transform: scale(1.08);
   background-color: $btn-hover-bg-color;
 }
 

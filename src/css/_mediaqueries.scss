@@ -25,6 +25,7 @@
 @media only screen and (max-width: 920px) {
    .portfolio-item{
       width: 45%;
+      transition: width 0.3s ease-in-out; /* Ajout de la transition */
    }
    .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
       font-size: 16px;
@@ -250,6 +251,10 @@
    .flex-control-nav {
       text-align: center;
       margin-left: -30px;
+   }
+   .portfolio-item{
+      width: 90%;
+      transition: width 0.3s ease-in-out;
    }
    .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
       font-size: 20px;
