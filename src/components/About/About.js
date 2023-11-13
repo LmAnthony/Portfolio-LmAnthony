@@ -29,7 +29,8 @@ export default class About extends Component {
                     <p className="address">
        					<span>{resumeData.name}</span>
                      <br></br>
-       					<span>{resumeData.address}</span>
+                     <span>Get in touch : </span>
+                     <a href ={`${resumeData.address}`}>anthony.devwwm@gmail.com</a>
                      <br></br>
                     <span>{resumeData.website}</span>
                      <br></br>
