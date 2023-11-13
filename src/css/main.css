@@ -498,8 +498,8 @@ footer .social-links li:first-child {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-.skill .nine {
-  width: 100%;
+.widthskills {
+  width: 100% !important;
 }
 
 .bars .skills {
@@ -1608,6 +1608,10 @@ input[type=checkbox] {
 
 .row .eight {
   width: 66.66667%;
+}
+
+.row .nine {
+  width: 75%;
 }
 
 .row .ten {
