@@ -28,10 +28,10 @@
       transition: width 0.3s ease-in-out; /* Ajout de la transition */
    }
    .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
-      font-size: 16px;
+      font-size: 20px;
   }
   .portfolio-item .portfolio-item-meta p {
-     font: 12px/28px 'opensans-light', sans-serif;
+     font: 22px/32px 'opensans-light', sans-serif;
   }
 }
 /* screenwidth less than 900px
@@ -260,7 +260,7 @@
       font-size: 20px;
   }
   .portfolio-item .portfolio-item-meta p {
-     font: 12px/26px 'opensans-light', sans-serif;
+     font: 24px/40px 'opensans-light', sans-serif;
   }
 
    /* footer
@@ -309,10 +309,10 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    .portfolio-item .portfolio-item-meta h5, .portfolio-item .portfolio-item-meta p {
-      font-size: 16px;
+      font-size: 20px;
   }
   .portfolio-item .portfolio-item-meta p {
-     font: 12px/28px 'opensans-light', sans-serif;
+     font: 19px/35px 'opensans-light', sans-serif;
   }
   
    /* header social links */
@@ -335,7 +335,7 @@
       font-size: 13.5px;
   }
   .portfolio-item .portfolio-item-meta p {
-     font: 12px/22px 'opensans-light', sans-serif;
+     font: 12.5px/24px 'opensans-light', sans-serif;
   }
 }
 
